@@ -131,11 +131,11 @@ Sayfanın responsive tasarımı için mi böyle bir uygulamada bulunuyorsunuz bi
 
 Aynı şekilde swiper.js isimli bir JS dosyasındaki hata dolayısıyla yine konsola bir hata basıldığını görebiliyorum. Oradaki syntax hatasını ya da boş class okumaya çalışan kod parçasını iptal ederseniz konsoldaki hatadan kurtulmuş oluruz. Bu JS dosyaları da yine minify edilmemiş ve doğrudan incelenebilir şekilde bırakılmış. Bunları minify ederseniz daha güzel olur.
 
-![[1749984356_grim.png]]
+![alt](1749984356_grim.png)
 
 Görüldüğü üzere konsolda pek çok farklı kaynaktan basılan bir çok hata var. Bunlardan bir tanesi resize eylemini dinliyor ve bu fonksiyon pencere yeniden şekillndikçe yeni hata basıyor.
 
-![[1749984382_grim.png]]
+![alt](1749984382_grim.png)
 
 Tasarım repo linki:
 
