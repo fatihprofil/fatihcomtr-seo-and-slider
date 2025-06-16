@@ -118,11 +118,9 @@ https://www.fatih.com.tr/resimler/projekategori/ferforje-pencereler-jpg168933545
 ## Genel tasarım ve performans problemleri
 Mevcut web uygulamasının ana sayfasında bulunan videonun SRC uzantısı streamable.com isimli bir platforma çıkıyor. Video web sitelerinin erişime kapatıldığı kurumsal internetlerde ya da filtrelemelerde bu web sitesi takıldığı için bizim web sitemizin ana sayfasındaki video da yüklenmiyor ve iframe crash hatası döndürüyor. 
 
-Size göndereceğim landing tasarımını renkleri, tipografisi olmak üzere dilediğiniz gibi değiştirip uygun hale getirdikten sonra web sitesinde kullanmaya başlayabilirsiniz. Fotoğrafların web sitesiyle aynı kaynakta bulunmasına dikkat ederseniz sevinirim.
+Haşem Bey, bu videoya compress uygulayıp bir CDN ile dağıtmanız mümkün mü? Tasarımı değiştirmeden videonun daha hızlı yüklenmesini istiyoruz. 
 
-Sayfa açılırken viewporta yani görünen kareye ne kadar az element girerse performans skoru için o kadar verimli bir tasarım olur. O sebeple yapacağınız eklemeleri/değişiklikleri aynı 100vh içerisinde yapmaya özen gösterirseniz seviniriz.
-
-Masaüstündeki Testimonials, Tarihçe ve Üretim isimli kısımlar Hero sectiondan hemen sonra gelen ilk elementteki bu kısımların içi boş. İçi boşsa tamamen kaldırmanız da uygun olabilir. Eğer düzeltmek isterseniz, bu sayfalardaki içeriği düzenledikten sonra lütfen elementin başlığındaki gramer hatasını da giderin. 1983’ten bugüne şeklinde yazılmış olması gerekiyor.
+Masaüstündeki Müşteri Yorumları, Tarihçe ve Üretim isimli kısımların içi boş. Bu kısımların içerisinin doldurulmasını sağlarsak güzel olur. Ben ihtiyaç duyacağınız görselleri belirtmeniz durumunda size ileteceğim.
 
 Pirudem Ürünler  
 Bu bağlantı artık kullanılmayan pirudem.com alan adına yönlendirme yapıyor. Bu kısmın fatih.com.tr/pirudem adresine yönlendirme yapması gerek.
@@ -137,16 +135,7 @@ Görüldüğü üzere konsolda pek çok farklı kaynaktan basılan bir çok hata
 
 ![alt](1749984382_grim.png)
 
-Örnek slider repo linki: https://github.com/fatihprofil/fatih-slider
-
-Örnek slider Github Page önizlemesi: https://fatihprofil.github.io/fatih-slider/
-
-Responsive hale getirmeye çalıştım fakat Utility CSS olmadan düz CSS ile beceremedim, hamburger menü de koymadım. O kısımlar size kaldı, kusura bakmayın.
-Bir de görseller stok, unsplashten çekiliyor ve optimize değiller. Görselleri seçip ileteceğim.
-
-Vanilla JS ve CSS ile derlendi, aynısını birebir kullanmak ya da kopyalamak zorunda değilsiniz. Dilerseniz kendi sisteminize göre tekrar tasarlayabilir eğip bükebilirsiniz. Mümkün olduğunca uyumlu olması için kalan elementlerde de değişiklik yapabilirsiniz, tamamen tercihlerinize kalmış. Sadece görüntüye yakın bir deneyim elde etsek yeterli. Ben sade ve hızlı olması için örnek olarak About Us ve Hero Section koydum, siz isterseniz About Us kısmını kullanmadan sadece sliderı kullanabilirsiniz.
-
-Haşem Bey, ayrıca www.pirudem.com ve www.fatihferforje.com adreslerinin sizin web panelinizden park edilmesi gerekiyor. Biz A kaydı yapıyoruz lakin zannediyorum ki dışarıdan yönlendirme almaya kapalı bir sunucu kullanıyorsunuz, bu sebeple yönlendirmeyi asla mümkün kılamıyoruz. Bu sorunumuz için de kullandığınız web panel çözümünde DNS ayarlarının çalışması için bu adresleri whitelist'e alırsanız çok müteşekkir kalırız. Teşekkürler.
+Haşem Bey, ayrıca www.pirudem.com ve www.fatihferforje.com adreslerinin sizin web panelinizden park edilmesi gerekiyor. Biz A kaydı yapıyoruz lakin zannediyorum ki dışarıdan yönlendirme almaya kapalı bir sunucu kullanıyorsunuz, bu domainleri hosting servisinize park ederseniz memnun oluruz.
 
 Saygılar
 Hakan Altay Ağyar
