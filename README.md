@@ -142,6 +142,7 @@ Görüldüğü üzere konsolda pek çok farklı kaynaktan basılan bir çok hata
 Örnek slider Github Page önizlemesi: https://fatihprofil.github.io/fatih-slider/
 
 Responsive hale getirmeye çalıştım fakat Utility CSS olmadan düz CSS ile beceremedim, hamburger menü de koymadım. O kısımlar size kaldı, kusura bakmayın.
+Bir de görseller stok, unsplashten çekiliyor ve optimize değiller. Görselleri seçip ileteceğim.
 
 Vanilla JS ve CSS ile derlendi, aynısını birebir kullanmak ya da kopyalamak zorunda değilsiniz. Dilerseniz kendi sisteminize göre tekrar tasarlayabilir eğip bükebilirsiniz. Mümkün olduğunca uyumlu olması için kalan elementlerde de değişiklik yapabilirsiniz, tamamen tercihlerinize kalmış. Sadece görüntüye yakın bir deneyim elde etsek yeterli. Ben sade ve hızlı olması için örnek olarak About Us ve Hero Section koydum, siz isterseniz About Us kısmını kullanmadan sadece sliderı kullanabilirsiniz.
 
